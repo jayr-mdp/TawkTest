@@ -3,29 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A06409F3275F8D130000047E /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06409F2275F8D130000047E /* CoreDataManager.swift */; };
 		A0E9599D26DBFA25003FD5E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E9599C26DBFA25003FD5E1 /* AppDelegate.swift */; };
 		A0E9599F26DBFA25003FD5E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E9599E26DBFA25003FD5E1 /* SceneDelegate.swift */; };
-		A0E959A126DBFA25003FD5E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E959A026DBFA25003FD5E1 /* ViewController.swift */; };
 		A0E959A426DBFA25003FD5E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E959A226DBFA25003FD5E1 /* Main.storyboard */; };
 		A0E959A726DBFA25003FD5E1 /* TawkTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0E959A526DBFA25003FD5E1 /* TawkTest.xcdatamodeld */; };
 		A0E959A926DBFA27003FD5E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0E959A826DBFA27003FD5E1 /* Assets.xcassets */; };
 		A0E959AC26DBFA27003FD5E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E959AA26DBFA27003FD5E1 /* LaunchScreen.storyboard */; };
+		A0E959B526DBFA49003FD5E1 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = A0E959B426DBFA49003FD5E1 /* Moya */; };
+		A0E959C026DBFBCF003FD5E1 /* GitUsersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E959BF26DBFBCF003FD5E1 /* GitUsersListViewController.swift */; };
+		A0E959C526DBFC09003FD5E1 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E959C426DBFC09003FD5E1 /* APIService.swift */; };
+		A0E959C726DBFC2C003FD5E1 /* GitUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E959C626DBFC2C003FD5E1 /* GitUserViewModel.swift */; };
+		A0E959CD26DC0695003FD5E1 /* list.json in Resources */ = {isa = PBXBuildFile; fileRef = A0E959CC26DC0695003FD5E1 /* list.json */; };
+		A0E959CF26DC06E5003FD5E1 /* profile.json in Resources */ = {isa = PBXBuildFile; fileRef = A0E959CE26DC06E5003FD5E1 /* profile.json */; };
+		A0E959D626DC0DB6003FD5E1 /* GitUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E959D426DC0DB6003FD5E1 /* GitUser+CoreDataClass.swift */; };
+		A0E959D726DC0DB6003FD5E1 /* GitUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E959D526DC0DB6003FD5E1 /* GitUser+CoreDataProperties.swift */; };
+		A0E959D926DCAE37003FD5E1 /* UserListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E959D826DCAE37003FD5E1 /* UserListLayout.swift */; };
+		A0E95BBF26DD355A003FD5E1 /* GitUserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E95BBE26DD355A003FD5E1 /* GitUserCollectionViewCell.swift */; };
+		A0E95BC126DD415A003FD5E1 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E95BC026DD415A003FD5E1 /* Section.swift */; };
+		A0E95BC426DD4834003FD5E1 /* SkeletonView in Frameworks */ = {isa = PBXBuildFile; productRef = A0E95BC326DD4834003FD5E1 /* SkeletonView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A06409F2275F8D130000047E /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		A0E9599926DBFA25003FD5E1 /* TawkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TawkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E9599C26DBFA25003FD5E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0E9599E26DBFA25003FD5E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A0E959A026DBFA25003FD5E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A0E959A326DBFA25003FD5E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0E959A626DBFA25003FD5E1 /* TawkTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TawkTest.xcdatamodel; sourceTree = "<group>"; };
 		A0E959A826DBFA27003FD5E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0E959AB26DBFA27003FD5E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0E959AD26DBFA27003FD5E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E959BF26DBFBCF003FD5E1 /* GitUsersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitUsersListViewController.swift; sourceTree = "<group>"; };
+		A0E959C426DBFC09003FD5E1 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		A0E959C626DBFC2C003FD5E1 /* GitUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitUserViewModel.swift; sourceTree = "<group>"; };
+		A0E959CC26DC0695003FD5E1 /* list.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = list.json; sourceTree = "<group>"; };
+		A0E959CE26DC06E5003FD5E1 /* profile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = profile.json; sourceTree = "<group>"; };
+		A0E959D426DC0DB6003FD5E1 /* GitUser+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GitUser+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A0E959D526DC0DB6003FD5E1 /* GitUser+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GitUser+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A0E959D826DCAE37003FD5E1 /* UserListLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListLayout.swift; sourceTree = "<group>"; };
+		A0E95BBE26DD355A003FD5E1 /* GitUserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitUserCollectionViewCell.swift; sourceTree = "<group>"; };
+		A0E95BC026DD415A003FD5E1 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0E95BC426DD4834003FD5E1 /* SkeletonView in Frameworks */,
+				A0E959B526DBFA49003FD5E1 /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,9 +82,13 @@
 		A0E9599B26DBFA25003FD5E1 /* TawkTest */ = {
 			isa = PBXGroup;
 			children = (
+				A0E959C826DC0623003FD5E1 /* assets */,
+				A0E959C326DBFBF1003FD5E1 /* Utilities */,
+				A0E959BE26DBFBBB003FD5E1 /* ViewModel */,
+				A0E959BD26DBFBB0003FD5E1 /* ViewController */,
+				A0E959BC26DBFBA4003FD5E1 /* Model */,
 				A0E9599C26DBFA25003FD5E1 /* AppDelegate.swift */,
 				A0E9599E26DBFA25003FD5E1 /* SceneDelegate.swift */,
-				A0E959A026DBFA25003FD5E1 /* ViewController.swift */,
 				A0E959A226DBFA25003FD5E1 /* Main.storyboard */,
 				A0E959A826DBFA27003FD5E1 /* Assets.xcassets */,
 				A0E959AA26DBFA27003FD5E1 /* LaunchScreen.storyboard */,
@@ -68,6 +96,60 @@
 				A0E959A526DBFA25003FD5E1 /* TawkTest.xcdatamodeld */,
 			);
 			path = TawkTest;
+			sourceTree = "<group>";
+		};
+		A0E959BC26DBFBA4003FD5E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0E959D426DC0DB6003FD5E1 /* GitUser+CoreDataClass.swift */,
+				A0E959D526DC0DB6003FD5E1 /* GitUser+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A0E959BD26DBFBB0003FD5E1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A0E959BF26DBFBCF003FD5E1 /* GitUsersListViewController.swift */,
+				A0E959D826DCAE37003FD5E1 /* UserListLayout.swift */,
+				A0E95BBE26DD355A003FD5E1 /* GitUserCollectionViewCell.swift */,
+				A0E95BC026DD415A003FD5E1 /* Section.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A0E959BE26DBFBBB003FD5E1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A0E959C626DBFC2C003FD5E1 /* GitUserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A0E959C326DBFBF1003FD5E1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A0E959C426DBFC09003FD5E1 /* APIService.swift */,
+				A06409F2275F8D130000047E /* CoreDataManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A0E959C826DC0623003FD5E1 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				A0E959C926DC062A003FD5E1 /* json */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		A0E959C926DC062A003FD5E1 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				A0E959CC26DC0695003FD5E1 /* list.json */,
+				A0E959CE26DC06E5003FD5E1 /* profile.json */,
+			);
+			path = json;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +168,10 @@
 			dependencies = (
 			);
 			name = TawkTest;
+			packageProductDependencies = (
+				A0E959B426DBFA49003FD5E1 /* Moya */,
+				A0E95BC326DD4834003FD5E1 /* SkeletonView */,
+			);
 			productName = TawkTest;
 			productReference = A0E9599926DBFA25003FD5E1 /* TawkTest.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +199,10 @@
 				Base,
 			);
 			mainGroup = A0E9599026DBFA25003FD5E1;
+			packageReferences = (
+				A0E959B326DBFA49003FD5E1 /* XCRemoteSwiftPackageReference "Moya" */,
+				A0E95BC226DD4833003FD5E1 /* XCRemoteSwiftPackageReference "SkeletonView" */,
+			);
 			productRefGroup = A0E9599A26DBFA25003FD5E1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +218,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0E959AC26DBFA27003FD5E1 /* LaunchScreen.storyboard in Resources */,
+				A0E959CF26DC06E5003FD5E1 /* profile.json in Resources */,
+				A0E959CD26DC0695003FD5E1 /* list.json in Resources */,
 				A0E959A926DBFA27003FD5E1 /* Assets.xcassets in Resources */,
 				A0E959A426DBFA25003FD5E1 /* Main.storyboard in Resources */,
 			);
@@ -141,9 +233,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0E959A726DBFA25003FD5E1 /* TawkTest.xcdatamodeld in Sources */,
-				A0E959A126DBFA25003FD5E1 /* ViewController.swift in Sources */,
+				A0E959D726DC0DB6003FD5E1 /* GitUser+CoreDataProperties.swift in Sources */,
+				A0E95BBF26DD355A003FD5E1 /* GitUserCollectionViewCell.swift in Sources */,
 				A0E9599D26DBFA25003FD5E1 /* AppDelegate.swift in Sources */,
+				A0E95BC126DD415A003FD5E1 /* Section.swift in Sources */,
 				A0E9599F26DBFA25003FD5E1 /* SceneDelegate.swift in Sources */,
+				A06409F3275F8D130000047E /* CoreDataManager.swift in Sources */,
+				A0E959C026DBFBCF003FD5E1 /* GitUsersListViewController.swift in Sources */,
+				A0E959C726DBFC2C003FD5E1 /* GitUserViewModel.swift in Sources */,
+				A0E959D626DC0DB6003FD5E1 /* GitUser+CoreDataClass.swift in Sources */,
+				A0E959C526DBFC09003FD5E1 /* APIService.swift in Sources */,
+				A0E959D926DCAE37003FD5E1 /* UserListLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +445,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A0E959B326DBFA49003FD5E1 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.0.1;
+			};
+		};
+		A0E95BC226DD4833003FD5E1 /* XCRemoteSwiftPackageReference "SkeletonView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Juanpe/SkeletonView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.24.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A0E959B426DBFA49003FD5E1 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0E959B326DBFA49003FD5E1 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		A0E95BC326DD4834003FD5E1 /* SkeletonView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0E95BC226DD4833003FD5E1 /* XCRemoteSwiftPackageReference "SkeletonView" */;
+			productName = SkeletonView;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		A0E959A526DBFA25003FD5E1 /* TawkTest.xcdatamodeld */ = {
